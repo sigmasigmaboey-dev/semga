@@ -3,7 +3,7 @@ import os
 import requests
 from aiogram import Bot, Dispatcher, types
 
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("TOKEN")
 AI_KEY = os.getenv("AI_KEY")
 
 bot = Bot(token=TOKEN)
