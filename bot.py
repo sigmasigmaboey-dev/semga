@@ -1,3 +1,4 @@
+PORT = os.getenv("PORT", "8080")
 import asyncio
 import os
 import requests
