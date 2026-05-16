@@ -1,6 +1,6 @@
+import os
 PORT = os.getenv("PORT", "8080")
 import asyncio
-import os
 import requests
 from aiogram import Bot, Dispatcher, types
 
